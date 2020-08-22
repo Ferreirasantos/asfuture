@@ -49,35 +49,35 @@ hr{
 }
 #html5{
 	position: relative;
-	right: ;
+	
 }
 #css{
 	position: relative;
-	right: ;
+	
 }
 #javascript{
 	position: relative;
-	right: ;
+	
 }
 #php{
 	position: relative;
-	right: ;
+	
 }
 #mysql{
 	position: relative;
-	left: ;
+	
 }
 #csharp{
 	position: relative;
-	left:;
+	
 }
 #boostrap{
 	position: relative;
-	left: ;
+	
 }
 #wordpress{
 	position: relative;
-	left: ;
+	
 }
 @media(min-width: 276px) and (max-width: 850px){
 .fa-envelope{
