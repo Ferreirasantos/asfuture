@@ -47,6 +47,7 @@ hr{
 .card,.section-habilidade{
 	border: 1px solid #AAD922;
 }
+/*
 #html5{
 	position: relative;
 	right: 400px;
@@ -79,6 +80,7 @@ hr{
 	position: relative;
 	left: 700px;
 }
+*/
 @media(min-width: 276px) and (max-width: 850px){
 .fa-envelope{
 	font-size: 25px;
