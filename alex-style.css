@@ -92,25 +92,25 @@ hr{
 
 }
 @media(min-width: 1381px) and (max-width: 1440px){
-	#slow_menu{
+	.slow_menu{
 	position:relative;
 	left: 600px;
 	}
 }
 @media(min-width: 990px) and (max-width: 1380px){
-	#slow_menu{
+	.slow_menu{
 	position:relative;
 	left: 600px;
 	}
 }
 @media(min-width: 990px) and (max-width: 1280px){
-	#slow_menu{
+	.slow_menu{
 	position:relative;
 	left: 500px;
 	}
 }
 @media(min-width: 990px) and (max-width: 1180px){
-	#slow_menu{
+	.slow_menu{
 	position:relative;
 	left: 400px;
 	}
