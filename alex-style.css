@@ -49,38 +49,29 @@ hr{
 }
 
 #html5{
-	position: relative;
-	right: 400px;
+	display: none;
 }
 #css{
-	position: relative;
-	right: 500px;
+	display: none;
 }
 #javascript{
-	position: relative;
-	right: 600px;
+	display: none;
 }
 #php{
-	position: relative;
-	right: 700px;
+	display: none;
 }
 #mysql{
-	position: relative;
-	left: 700px;
+	display: none;
 }
 #csharp{
-	position: relative;
-	left: 600px;
+	display: none;
 }
 #boostrap{
-	position: relative;
-	left: 600px;
+	display: none;
 }
 #wordpress{
-	position: relative;
-	left: 700px;
+	display: none;
 }
-
 @media(min-width: 276px) and (max-width: 850px){
 .fa-envelope{
 	font-size: 25px;
