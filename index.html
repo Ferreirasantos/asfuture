@@ -399,8 +399,8 @@
 		distancia do scrolltop projetos 1920
 		distancia do scrolltop contato 2225
 	*/
-	// bordar do menu
 	$(window).scroll(function() {
+	
 		var posisao_scroll_menu = $(this).scrollTop();
 		if (posisao_scroll_menu <= 499) {
 			$(".home").addClass('border_menu');
@@ -432,17 +432,37 @@
 			$(".contato").removeClass('border_menu');
 		}
 		
+	});
 
-		// scrolltop lento
-		    var link = $(".slow_menu a ")
-			link.on("click",function() {
+	//scroll slow in menu
+	var link = $(".slow_menu a ")
+
+				link.on("click",function() {
 			var selecionado_item = $(this).attr("href");
 			var posicao_menu  = $(selecionado_item).offset().top;
 			$("html, body").animate({scrollTop:posicao_menu},1000);
-			});
+			})
 
-	})
+	
 
+	//Jquery codigo do card 1,2,3 e foto-perfil
+	var card1 = $('.card_1');
+	var card2 = $('.card_2');
+	var card3 = $('.card_3');
+	$(window).scroll(function() {
+		
+		var mp = $(this).scrollTop();
+		if (mp >= 1300) {
+			card1.fadeIn(1000);
+			card2.fadeIn(2000);
+			card3.fadeIn(2500);
+		}else
+		{
+			card1.fadeOut(2500);
+			card2.fadeOut(2000);
+			card3.fadeOut(1000);
+		}
+	});
 		/*$(window).scroll(function(){
 			console.log("pos");
 		})*/
@@ -486,21 +506,6 @@
 			iconewp.animate({
 				left:"0"
 			},2600);
-		}
-	//efeito do card 1 2 e 3
-		var card1 = $('.card_1');
-		var card2 = $('.card_2');
-		var card3 = $('.card_3');
-		var mp = $(this).scrollTop();
-		if (mp >= 1300) {
-			card1.fadeIn(1000);
-			card2.fadeIn(2000);
-			card3.fadeIn(2500);
-		}else
-		{
-			card1.fadeOut(2500);
-			card2.fadeOut(2000);
-			card3.fadeOut(1000);
 		}
 	})
 </script>
