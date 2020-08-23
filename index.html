@@ -446,10 +446,11 @@
 	
 
 	//Jquery codigo do card 1,2,3 e foto-perfil
-	var card1 = $('.card_1');
-	var card2 = $('.card_2');
-	var card3 = $('.card_3');
+	
 	$(window).scroll(function() {
+		var card1 = $('.card_1');
+		var card2 = $('.card_2');
+		var card3 = $('.card_3');
 		
 		var mp = $(this).scrollTop();
 		if (mp >= 1300) {
@@ -481,31 +482,14 @@
 		var iconewp = $('#wordpress')
 		var posisao = $(this).scrollTop();
 		if (posisao >= 1000) {
-			iconehtml.animate({
-				left:"0"
-			},2600);
-			iconecss.animate({
-				left:"0"
-			},2400);
-			iconejs.animate({
-				left:"0"
-			},2200);
-			iconephp.animate({
-				left:"0"
-			},2000);
-
-			iconemysql.animate({
-				left:"0"
-			},2000);
-			iconecsharp.animate({
-				left:"0"
-			},2200);
-			iconeboo.animate({
-				left:"0"
-			},2400);
-			iconewp.animate({
-				left:"0"
-			},2600);
+			iconehtml.fadeIn(2600);
+			iconecss.fadeIn(2400);
+			iconejs.fadeIn(2200);
+			iconephp.fadeIn(2000);
+			iconemysql.fadeIn(2000);
+			iconecsharp.fadeIn(2200);
+			iconeboo.fadeIn(2400);
+			iconewp.fadeIn(2600);
 		}
 	})
 </script>
