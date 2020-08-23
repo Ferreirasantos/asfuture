@@ -26,7 +26,7 @@
 				
 				<div class="collapse navbar-collapse ml-2" id="menuport">
 
-				<ul class="navbar-nav  mr-auto " id="slow_menu">
+				<ul class="navbar-nav mr-auto slow_menu">
 					<li class="nav-item home " >
 						<a class="nav-link " href="#secao_home"> Home</a>
 					</li>
@@ -435,13 +435,13 @@
 	});
 
 	//scroll slow in menu
-	var link = $("#slow_menu a ")
+	var link = $(".slow_menu a ")
 
 				link.on("click",function() {
 			var selecionado_item = $(this).attr("href");
 			var posicao_menu  = $(selecionado_item).offset().top;
 			$("html, body").animate({scrollTop:posicao_menu},1000);
-			});
+			})
 
 	
 
