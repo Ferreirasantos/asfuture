@@ -16,6 +16,9 @@ section{
 .fab,.fa-map-marker-alt,.fa-envelope{
 	font-size: 30px;
 }
+.fa-desktop,.fa-cogs,.fa-mobile-alt{
+	font-size: 100px;
+}
 .email{
 	font-size:17px; 
 }
@@ -36,6 +39,9 @@ hr{
 }
 .card-body{
 	background-color: #000000;
+}
+card1,.card2,.card3{
+	font-size: 18px;
 }
 .jumbotron{
 	background-color:#000000;
