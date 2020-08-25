@@ -50,7 +50,10 @@ card1,.card2,.card3{
 .modal-content{
 	border:1px solid #AAD922 ;
 }
-.card,.section-habilidade{
+.card{
+	border:1px solid #000000;
+}
+.card_1,.card_3,.card_2,.section-habilidade{
 	border: 1px solid #AAD922;
 }
 
