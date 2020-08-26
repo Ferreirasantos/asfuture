@@ -10,14 +10,15 @@ section{
 	padding-top: 9px;
 }
 .border_menu{
-	border-top: 1px solid #EE4266;
-	border-bottom: 1px solid #EE4266;
+	border-top: 1px solid #DC3543;
+	border-bottom: 1px solid #DC3543;
 }
 .fab,.fa-map-marker-alt,.fa-envelope{
 	font-size: 30px;
 }
 .fa-desktop,.fa-cogs,.fa-mobile-alt{
 	font-size: 100px;
+	color: #AAD922;
 }
 .email{
 	font-size:17px; 
@@ -29,7 +30,7 @@ section{
 	color: #EE4266;
 }
 hr{
-	background-color:  #EE4266;
+	background-color:  #DC3543;
 }
 .botao-algo-mais{
 	background-color:#861388;
