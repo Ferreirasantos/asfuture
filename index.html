@@ -106,7 +106,7 @@
 					<img src="livros.jpg" class=" ml-4 mb-3 " width="300px" height="200px">
 				<div class="col-lg-8 col-md-6 ml-2 " >
 					<h1 class="mb-2 ">Quem sou eu</h1>
-					p>Eu sou, Alex Ferreira, desenvolvedor front end, graduado em Análise e Desenvolvimento de Sistemas pela UNIBR e  Administração de empresas pela UNIP.
+					<p>Eu sou, Alex Ferreira, desenvolvedor front end, graduado em Análise e Desenvolvimento de Sistemas pela UNIBR e  Administração de empresas pela UNIP.
 					Além de um apaixonado por este mundo dos códigos, sou um eterno explorador que sempre está em busca do aprendizando, do  conhecimento tecnológico e das novas tendências para disponilibizar a melhor solução para você.
 					<p><em>Não coloque limites a sua frente, coloque metas.</em></p>   
     				</p>
@@ -445,7 +445,7 @@
 	$(window).scroll(function() {
 	
 		var posisao_scroll_menu = $(this).scrollTop();
-		if (posisao_scroll_menu <= 100) {
+		if (posisao_scroll_menu <= 1000) {
 			$(".home").addClass('border_menu');
 		}else{
 			$(".home").removeClass('border_menu');
@@ -457,19 +457,19 @@
 			$(".quem_sou_eu").removeClass('border_menu');
 		}
 
-		if (posisao_scroll_menu >= 1801 & (posisao_scroll_menu <= 2100)) {
+		if (posisao_scroll_menu >= 1801 & (posisao_scroll_menu <= 2200)) {
 			$(".habilidade").addClass('border_menu');
 		}else{
 			$(".habilidade").removeClass('border_menu');
 		}
 
-		if (posisao_scroll_menu >= 2101 & (posisao_scroll_menu <= 2717)) {
+		if (posisao_scroll_menu >= 2201 & (posisao_scroll_menu <= 2800)) {
 			$(".projetos").addClass('border_menu');
 		}else{
 			$(".projetos").removeClass('border_menu');
 		}
 
-		if (posisao_scroll_menu >= 2718 & (posisao_scroll_menu <= 3900)) {
+		if (posisao_scroll_menu >= 2801 & (posisao_scroll_menu <= 3900)) {
 			$(".contato").addClass('border_menu');
 		}else{
 			$(".contato").removeClass('border_menu');
