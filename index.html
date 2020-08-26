@@ -106,8 +106,10 @@
 					<img src="livros.jpg" class=" ml-4 mb-3 " width="300px" height="200px">
 				<div class="col-lg-8 col-md-6 ml-2 " >
 					<h1 class="mb-2 ">Quem sou eu</h1>
-					<p>Oi! meu nome é Alex Ferreira, recém graduado em Análise e Desenvolvimento de Sistemas pela UNIBR e graduado em Administração de empresas pela UNIP em 2017
-    				Venho dedicando-me dia após dia em busca de aprimorar os meus conhecimentos para torna-me um excelente profissional. Busco por divervos meios a minha melhoria continua, através dos canais de aprendizado como livros, palestras, rede social (foco em programação, tecnologias) e curso online mais abaixo tem alguns certificados de cursos já realizados.</p>
+					p>Eu sou, Alex Ferreira, desenvolvedor front end, graduado em Análise e Desenvolvimento de Sistemas pela UNIBR e  Administração de empresas pela UNIP.
+					Além de um apaixonado por este mundo dos códigos, sou um eterno explorador que sempre está em busca do aprendizando, do  conhecimento tecnológico e das novas tendências para disponilibizar a melhor solução para você.
+					<p><em>Não coloque limites a sua frente, coloque metas.</em></p>   
+    				</p>
 				</div>
 			</div>	
 		</div>
@@ -443,31 +445,31 @@
 	$(window).scroll(function() {
 	
 		var posisao_scroll_menu = $(this).scrollTop();
-		if (posisao_scroll_menu <= 499) {
+		if (posisao_scroll_menu <= 100) {
 			$(".home").addClass('border_menu');
 		}else{
 			$(".home").removeClass('border_menu');
 		}
 
-		if (posisao_scroll_menu >= 500 & (posisao_scroll_menu <= 1219)) {
+		if (posisao_scroll_menu >= 1001 & (posisao_scroll_menu <= 1800)) {
 			$(".quem_sou_eu").addClass('border_menu');
 		}else{
 			$(".quem_sou_eu").removeClass('border_menu');
 		}
 
-		if (posisao_scroll_menu >= 1220 & (posisao_scroll_menu <= 1620)) {
+		if (posisao_scroll_menu >= 1801 & (posisao_scroll_menu <= 2100)) {
 			$(".habilidade").addClass('border_menu');
 		}else{
 			$(".habilidade").removeClass('border_menu');
 		}
 
-		if (posisao_scroll_menu >= 1620 & (posisao_scroll_menu <= 2224)) {
+		if (posisao_scroll_menu >= 2101 & (posisao_scroll_menu <= 2717)) {
 			$(".projetos").addClass('border_menu');
 		}else{
 			$(".projetos").removeClass('border_menu');
 		}
 
-		if (posisao_scroll_menu >= 2225 & (posisao_scroll_menu <= 3000)) {
+		if (posisao_scroll_menu >= 2718 & (posisao_scroll_menu <= 3900)) {
 			$(".contato").addClass('border_menu');
 		}else{
 			$(".contato").removeClass('border_menu');
@@ -494,7 +496,7 @@
 		var card3 = $('.card_3');
 		
 		var mp = $(this).scrollTop();
-		if (mp >= 1300) {
+		if (mp >= 1800) {
 			card1.fadeIn(1000);
 			card2.fadeIn(2000);
 			card3.fadeIn(2500);
@@ -522,7 +524,7 @@
 		var iconeboo = $('#boostrap')
 		var iconewp = $('#wordpress')
 		var posisao = $(this).scrollTop();
-		if (posisao >= 1000) {
+		if (posisao >= 1400) {
 			iconehtml.fadeIn(2600);
 			iconecss.fadeIn(2400);
 			iconejs.fadeIn(2200);
